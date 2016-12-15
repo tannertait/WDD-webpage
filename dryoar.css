@@ -56,7 +56,7 @@ nav a {
 }
 
 a:link {
-    color: #0567A7;
+    color: mediumpurple;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -111,6 +111,7 @@ p {
 
 .textcolor {
     color: navajowhite;
+    margin-bottom: 2%;
 }
 
 #sec3 {
@@ -142,7 +143,7 @@ h6 {
 /*================================================================*/
 
 
-/*===================Rivers Changes==========================*/
+/*===================Rivers and reviews Changes==========================*/
 
 
 /*================================================================*/
@@ -150,4 +151,63 @@ h6 {
 #rivertitle {
     text-align: center;
     font-size: 3em;
+}
+
+#bodyimg1 {
+    max-width: 90%;
+}
+
+.trippic {
+    max-width: 100%;
+}
+
+#trippic {
+    max-width: 100%;
+    min-width: 25%;
+}
+
+.one {
+    margin: auto;
+    min-width: 33%;
+    display: inline;
+}
+
+section h2 {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 5%;
+    margin-left: 6%
+}
+
+#borderrev {
+    margin-top: 5%;
+    padding-bottom: 2%;
+    border-style: groove;
+    border-width: 1em;
+    border-bottom-color: #FF6A36;
+    border-right-color: #FF6A36;
+    border-top-color: #FF6A36;
+    border-left-color: #FF6A36;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    margin-right: 5%;
+}
+
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: .8em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+#pmarg {
+    margin-bottom: 2%;
 }
